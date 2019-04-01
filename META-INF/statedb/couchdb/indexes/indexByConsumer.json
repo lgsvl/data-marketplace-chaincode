@@ -1,0 +1,9 @@
+{
+    "index":
+    {
+        "fields": ["docType","consumer"]
+    },
+    "ddoc":"indexByConsumerDoc", 
+    "name":"indexByConsumer",
+    "type":"json"
+}

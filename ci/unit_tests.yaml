@@ -1,0 +1,19 @@
+---
+platform: linux
+
+image_resource:
+  type: registry-image
+  source: {repository: golang}
+
+inputs:
+- name: data-marketplace-chaincode
+
+caches:
+- path: gopath/
+
+params:
+  COVERALLS_TOKEN:
+  GIT_BRANCH: master
+
+run:
+  path: data-marketplace-chaincode/ci/test

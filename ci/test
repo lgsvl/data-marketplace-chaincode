@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e -u
+
+export GOPATH=$PWD/gopath
+export PATH=$PWD/gopath/bin:$PATH
+
+
+echo "preparing environment ..."
+mkdir -p $GOPATH/src/github.com/lgsvl
+cp -rf data-marketplace-chaincode $GOPATH/src/github.com/lgsvl
+cd $GOPATH/src/github.com/lgsvl/data-marketplace-chaincode
+
+echo "running tests..."
+./scripts/run_units.sh -p "$@"

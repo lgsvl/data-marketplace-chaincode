@@ -1,0 +1,9 @@
+{
+    "index":
+    {
+        "fields": ["docType","provider"]
+    },
+    "ddoc":"indexByProvider", 
+    "name":"indexByProvider",
+    "type":"json"
+}

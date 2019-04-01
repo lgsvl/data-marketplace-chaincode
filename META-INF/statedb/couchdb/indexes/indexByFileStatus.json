@@ -1,0 +1,9 @@
+{
+    "index":
+    {
+        "fields": ["docType", "extras.fileStatus"]
+    },
+    "ddoc":"indexByFileStatusDoc", 
+    "name":"indexByFileStatus",
+    "type":"json"
+}

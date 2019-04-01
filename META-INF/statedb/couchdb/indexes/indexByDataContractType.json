@@ -1,0 +1,9 @@
+{
+    "index":
+    {
+        "fields": ["docType", "dataContractType"]
+    },
+    "ddoc":"indexByDataContractTypeDoc", 
+    "name":"indexByDataContractType",
+    "type":"json"
+}
