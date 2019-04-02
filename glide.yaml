@@ -1,0 +1,19 @@
+package: github.com/lgsvl/data-marketplace-chaincode
+import:
+- package: github.com/golang/protobuf
+  version: ^1.2.0
+  subpackages:
+  - ptypes/timestamp
+- package: github.com/hyperledger/fabric
+  version: ^1.3.0
+  subpackages:
+  - core/chaincode/shim
+  - protos/peer
+- package: golang.org/x/oauth2
+  subpackages:
+  - jws
+testImport:
+- package: github.com/onsi/ginkgo
+  version: ^1.7.0
+- package: github.com/onsi/gomega
+  version: ^1.4.3
