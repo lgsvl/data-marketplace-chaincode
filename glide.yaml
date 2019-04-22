@@ -1,3 +1,7 @@
+#
+# Copyright (c) 2019 LG Electronics Inc.
+# SPDX-License-Identifier: Apache-2.0
+#
 package: github.com/lgsvl/data-marketplace-chaincode
 import:
 - package: github.com/golang/protobuf
